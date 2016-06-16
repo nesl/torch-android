@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+2a2945465cea7122abe91ba0d5966517 distro/exe/luajit-rocks/luajit-2.1/lj_bcdef.h
+90a174ef9e581702cdf2a5f3b23ef494 distro/exe/luajit-rocks/luajit-2.1/lj_ffdef.h
+fcea4e2bada86a6d8deb373b0cb95992 distro/exe/luajit-rocks/luajit-2.1/lj_folddef.h
+dae87bbaec21c836ca2ca5ca3686ba32 distro/exe/luajit-rocks/luajit-2.1/lj_libdef.h
+0a35925dee123cd86e911a545856c710 distro/exe/luajit-rocks/luajit-2.1/lj_recdef.h
+f2d4f652d1821164bd8fe71d3314f278 distro/exe/luajit-rocks/luajit-2.1/lj_vm.S
+117bd9c591170d9d3f29315477047ef8 distro/exe/luajit-rocks/luajit-2.1/vmdef.lua
+6456d27fa693fc5ad4bc2b072611dfc5 distro/pkg/torch/TensorMath.c
+723a4621b8a6e471b9ae888a95e33052 distro/pkg/torch/random.c

@@ -10,7 +10,7 @@ ant debug
 if [ $? -ne 0 ]; then
     exit
 fi
-adb install -r bin/TorchDemo-debug.apk
+adb install -r bin/MainActivity-debug.apk
 if [ $? -ne 0 ]; then
     exit
 fi

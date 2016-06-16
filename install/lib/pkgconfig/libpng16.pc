@@ -1,0 +1,11 @@
+prefix=/Users/malzantot/Documents/playground/torch-android/install
+exec_prefix=/Users/malzantot/Documents/playground/torch-android/install
+libdir=/Users/malzantot/Documents/playground/torch-android/install/lib
+includedir=/Users/malzantot/Documents/playground/torch-android/install/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.20
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}

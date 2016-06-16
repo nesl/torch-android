@@ -1,0 +1,1179 @@
+Performing C SOURCE FILE Test LJ_TARGET_X64 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c421/fast"
+make -f CMakeFiles/cmTC_3c421.dir/build.make CMakeFiles/cmTC_3c421.dir/build
+Building C object CMakeFiles/cmTC_3c421.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_TARGET_X64 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1 -I/Users/malzantot/Documents/playground/torch-android/distro/exe/luajit-rocks/luajit-2.1/src    -o CMakeFiles/cmTC_3c421.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:7:2: error: #error "not defined"
+ #error "not defined"
+  ^
+make[1]: *** [CMakeFiles/cmTC_3c421.dir/src.c.o] Error 1
+make: *** [cmTC_3c421/fast] Error 2
+
+Source file was:
+
+#undef LJ_TARGET_X64
+#include "lj_arch.h"
+#if LJ_TARGET_X64
+int main() { return 0; }
+#else
+#error "not defined"
+#endif
+
+Performing C SOURCE FILE Test LJ_TARGET_X86 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_affa1/fast"
+make -f CMakeFiles/cmTC_affa1.dir/build.make CMakeFiles/cmTC_affa1.dir/build
+Building C object CMakeFiles/cmTC_affa1.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_TARGET_X86 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1 -I/Users/malzantot/Documents/playground/torch-android/distro/exe/luajit-rocks/luajit-2.1/src    -o CMakeFiles/cmTC_affa1.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:7:2: error: #error "not defined"
+ #error "not defined"
+  ^
+make[1]: *** [CMakeFiles/cmTC_affa1.dir/src.c.o] Error 1
+make: *** [cmTC_affa1/fast] Error 2
+
+Source file was:
+
+#undef LJ_TARGET_X86
+#include "lj_arch.h"
+#if LJ_TARGET_X86
+int main() { return 0; }
+#else
+#error "not defined"
+#endif
+
+Performing C SOURCE FILE Test LJ_ARCH_BITS_64 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc7e8/fast"
+make -f CMakeFiles/cmTC_bc7e8.dir/build.make CMakeFiles/cmTC_bc7e8.dir/build
+Building C object CMakeFiles/cmTC_bc7e8.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_ARCH_BITS_64 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1 -I/Users/malzantot/Documents/playground/torch-android/distro/exe/luajit-rocks/luajit-2.1/src    -o CMakeFiles/cmTC_bc7e8.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:7:2: error: #error "not defined"
+ #error "not defined"
+  ^
+make[1]: *** [CMakeFiles/cmTC_bc7e8.dir/src.c.o] Error 1
+make: *** [cmTC_bc7e8/fast] Error 2
+
+Source file was:
+
+#undef LJ_ARCH_BITS
+#include "lj_arch.h"
+#if LJ_ARCH_BITS == 64
+int main() { return 0; }
+#else
+#error "not defined"
+#endif
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_51b50/fast"
+make -f CMakeFiles/cmTC_51b50.dir/build.make CMakeFiles/cmTC_51b50.dir/build
+Building C object CMakeFiles/cmTC_51b50.dir/CheckIncludeFiles.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_51b50.dir/CheckIncludeFiles.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+                      ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_51b50.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_51b50/fast] Error 2
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/dir.h exist failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6eae8/fast"
+make -f CMakeFiles/cmTC_6eae8.dir/build.make CMakeFiles/cmTC_6eae8.dir/build
+Building C object CMakeFiles/cmTC_6eae8.dir/CheckIncludeFiles.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_6eae8.dir/CheckIncludeFiles.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: sys/dir.h: No such file or directory
+ #include <sys/dir.h>
+                     ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_6eae8.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_6eae8/fast] Error 2
+
+Source:
+/* */
+#include <sys/dir.h>
+
+
+int main(void){return 0;}
+
+Determining if files ndir.h exist failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfa85/fast"
+make -f CMakeFiles/cmTC_dfa85.dir/build.make CMakeFiles/cmTC_dfa85.dir/build
+Building C object CMakeFiles/cmTC_dfa85.dir/CheckIncludeFiles.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_dfa85.dir/CheckIncludeFiles.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+                  ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_dfa85.dir/CheckIncludeFiles.c.o] Error 1
+make: *** [cmTC_dfa85/fast] Error 2
+
+Source:
+/* */
+#include <ndir.h>
+
+
+int main(void){return 0;}
+
+Determining if the function shm_open exists failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efbd6/fast"
+make -f CMakeFiles/cmTC_efbd6.dir/build.make CMakeFiles/cmTC_efbd6.dir/build
+Building C object CMakeFiles/cmTC_efbd6.dir/CheckFunctionExists.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCHECK_FUNCTION_EXISTS=shm_open -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_efbd6.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_efbd6
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efbd6.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCHECK_FUNCTION_EXISTS=shm_open   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_efbd6.dir/CheckFunctionExists.c.o -o cmTC_efbd6  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+CMakeFiles/cmTC_efbd6.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'shm_open'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_efbd6] Error 1
+make: *** [cmTC_efbd6/fast] Error 2
+
+
+Determining if the function shm_unlink exists failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_75952/fast"
+make -f CMakeFiles/cmTC_75952.dir/build.make CMakeFiles/cmTC_75952.dir/build
+Building C object CMakeFiles/cmTC_75952.dir/CheckFunctionExists.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCHECK_FUNCTION_EXISTS=shm_unlink -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_75952.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_75952
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75952.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCHECK_FUNCTION_EXISTS=shm_unlink   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_75952.dir/CheckFunctionExists.c.o -o cmTC_75952  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+CMakeFiles/cmTC_75952.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'shm_unlink'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_75952] Error 1
+make: *** [cmTC_75952/fast] Error 2
+
+
+Performing C SOURCE FILE Test C_HAS_SSE1_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_937ac/fast"
+make -f CMakeFiles/cmTC_937ac.dir/build.make CMakeFiles/cmTC_937ac.dir/build
+Building C object CMakeFiles/cmTC_937ac.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE1_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_937ac.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: xmmintrin.h: No such file or directory
+   #include <xmmintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_937ac.dir/src.c.o] Error 1
+make: *** [cmTC_937ac/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <xmmintrin.h>
+
+  int main()
+  {
+    __m128 a;
+    float vals[4] = {0,0,0,0};
+    a = _mm_loadu_ps(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test C_HAS_SSE1_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6cdc9/fast"
+make -f CMakeFiles/cmTC_6cdc9.dir/build.make CMakeFiles/cmTC_6cdc9.dir/build
+Building C object CMakeFiles/cmTC_6cdc9.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE1_2 -msse -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_6cdc9.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse'
+make[1]: *** [CMakeFiles/cmTC_6cdc9.dir/src.c.o] Error 1
+make: *** [cmTC_6cdc9/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <xmmintrin.h>
+
+  int main()
+  {
+    __m128 a;
+    float vals[4] = {0,0,0,0};
+    a = _mm_loadu_ps(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test C_HAS_SSE1_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03208/fast"
+make -f CMakeFiles/cmTC_03208.dir/build.make CMakeFiles/cmTC_03208.dir/build
+Building C object CMakeFiles/cmTC_03208.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE1_3 /arch:SSE -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_03208.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:SSE: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_03208.dir/src.c.o] Error 1
+make: *** [cmTC_03208/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <xmmintrin.h>
+
+  int main()
+  {
+    __m128 a;
+    float vals[4] = {0,0,0,0};
+    a = _mm_loadu_ps(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test C_HAS_SSE2_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_397ab/fast"
+make -f CMakeFiles/cmTC_397ab.dir/build.make CMakeFiles/cmTC_397ab.dir/build
+Building C object CMakeFiles/cmTC_397ab.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE2_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_397ab.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: emmintrin.h: No such file or directory
+   #include <emmintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_397ab.dir/src.c.o] Error 1
+make: *** [cmTC_397ab/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <emmintrin.h>
+
+  int main()
+  {
+    __m128d a;
+    double vals[2] = {0,0};
+    a = _mm_loadu_pd(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test C_HAS_SSE2_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da09c/fast"
+make -f CMakeFiles/cmTC_da09c.dir/build.make CMakeFiles/cmTC_da09c.dir/build
+Building C object CMakeFiles/cmTC_da09c.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE2_2 -msse2 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_da09c.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse2'
+make[1]: *** [CMakeFiles/cmTC_da09c.dir/src.c.o] Error 1
+make: *** [cmTC_da09c/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <emmintrin.h>
+
+  int main()
+  {
+    __m128d a;
+    double vals[2] = {0,0};
+    a = _mm_loadu_pd(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test C_HAS_SSE2_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27040/fast"
+make -f CMakeFiles/cmTC_27040.dir/build.make CMakeFiles/cmTC_27040.dir/build
+Building C object CMakeFiles/cmTC_27040.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE2_3 /arch:SSE2 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_27040.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:SSE2: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_27040.dir/src.c.o] Error 1
+make: *** [cmTC_27040/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <emmintrin.h>
+
+  int main()
+  {
+    __m128d a;
+    double vals[2] = {0,0};
+    a = _mm_loadu_pd(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test C_HAS_SSE3_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a6e0/fast"
+make -f CMakeFiles/cmTC_2a6e0.dir/build.make CMakeFiles/cmTC_2a6e0.dir/build
+Building C object CMakeFiles/cmTC_2a6e0.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE3_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_2a6e0.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: pmmintrin.h: No such file or directory
+   #include <pmmintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_2a6e0.dir/src.c.o] Error 1
+make: *** [cmTC_2a6e0/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <pmmintrin.h>
+
+  int main( )
+  {
+    const int vals[4] = {0,0,0,0};
+    __m128i a;
+    a = _mm_lddqu_si128( (const __m128i*)vals );
+    return 0;
+  }
+Performing C SOURCE FILE Test C_HAS_SSE3_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8cf8/fast"
+make -f CMakeFiles/cmTC_c8cf8.dir/build.make CMakeFiles/cmTC_c8cf8.dir/build
+Building C object CMakeFiles/cmTC_c8cf8.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE3_2 -msse3 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_c8cf8.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse3'
+make[1]: *** [CMakeFiles/cmTC_c8cf8.dir/src.c.o] Error 1
+make: *** [cmTC_c8cf8/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <pmmintrin.h>
+
+  int main( )
+  {
+    const int vals[4] = {0,0,0,0};
+    __m128i a;
+    a = _mm_lddqu_si128( (const __m128i*)vals );
+    return 0;
+  }
+Performing C SOURCE FILE Test C_HAS_SSE3_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfaa3/fast"
+make -f CMakeFiles/cmTC_dfaa3.dir/build.make CMakeFiles/cmTC_dfaa3.dir/build
+Building C object CMakeFiles/cmTC_dfaa3.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE3_3 /arch:SSE3 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_dfaa3.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:SSE3: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_dfaa3.dir/src.c.o] Error 1
+make: *** [cmTC_dfaa3/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <pmmintrin.h>
+
+  int main( )
+  {
+    const int vals[4] = {0,0,0,0};
+    __m128i a;
+    a = _mm_lddqu_si128( (const __m128i*)vals );
+    return 0;
+  }
+Performing C SOURCE FILE Test C_HAS_SSE4_1_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ffa97/fast"
+make -f CMakeFiles/cmTC_ffa97.dir/build.make CMakeFiles/cmTC_ffa97.dir/build
+Building C object CMakeFiles/cmTC_ffa97.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE4_1_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_ffa97.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: smmintrin.h: No such file or directory
+   #include <smmintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_ffa97.dir/src.c.o] Error 1
+make: *** [cmTC_ffa97/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <smmintrin.h>
+
+  int main ()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0};
+    __m128i res = _mm_max_epi8(a, b);
+
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_SSE4_1_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_86b54/fast"
+make -f CMakeFiles/cmTC_86b54.dir/build.make CMakeFiles/cmTC_86b54.dir/build
+Building C object CMakeFiles/cmTC_86b54.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE4_1_2 -msse4.1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_86b54.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse4.1'
+make[1]: *** [CMakeFiles/cmTC_86b54.dir/src.c.o] Error 1
+make: *** [cmTC_86b54/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <smmintrin.h>
+
+  int main ()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0};
+    __m128i res = _mm_max_epi8(a, b);
+
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_SSE4_1_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30b55/fast"
+make -f CMakeFiles/cmTC_30b55.dir/build.make CMakeFiles/cmTC_30b55.dir/build
+Building C object CMakeFiles/cmTC_30b55.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE4_1_3 -msse4 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_30b55.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse4'
+make[1]: *** [CMakeFiles/cmTC_30b55.dir/src.c.o] Error 1
+make: *** [cmTC_30b55/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <smmintrin.h>
+
+  int main ()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0};
+    __m128i res = _mm_max_epi8(a, b);
+
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_SSE4_1_4 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20212/fast"
+make -f CMakeFiles/cmTC_20212.dir/build.make CMakeFiles/cmTC_20212.dir/build
+Building C object CMakeFiles/cmTC_20212.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE4_1_4 /arch:SSE4 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_20212.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:SSE4: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_20212.dir/src.c.o] Error 1
+make: *** [cmTC_20212/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <smmintrin.h>
+
+  int main ()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0};
+    __m128i res = _mm_max_epi8(a, b);
+
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_SSE4_2_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_41a58/fast"
+make -f CMakeFiles/cmTC_41a58.dir/build.make CMakeFiles/cmTC_41a58.dir/build
+Building C object CMakeFiles/cmTC_41a58.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE4_2_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_41a58.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: nmmintrin.h: No such file or directory
+   #include <nmmintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_41a58.dir/src.c.o] Error 1
+make: *** [cmTC_41a58/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <nmmintrin.h>
+
+  int main()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0}, c = {0,0,0,0};
+    c = _mm_cmpgt_epi64(a, b);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_SSE4_2_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f1984/fast"
+make -f CMakeFiles/cmTC_f1984.dir/build.make CMakeFiles/cmTC_f1984.dir/build
+Building C object CMakeFiles/cmTC_f1984.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE4_2_2 -msse4.2 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_f1984.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse4.2'
+make[1]: *** [CMakeFiles/cmTC_f1984.dir/src.c.o] Error 1
+make: *** [cmTC_f1984/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <nmmintrin.h>
+
+  int main()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0}, c = {0,0,0,0};
+    c = _mm_cmpgt_epi64(a, b);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_SSE4_2_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26d9c/fast"
+make -f CMakeFiles/cmTC_26d9c.dir/build.make CMakeFiles/cmTC_26d9c.dir/build
+Building C object CMakeFiles/cmTC_26d9c.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE4_2_3 -msse4 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_26d9c.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse4'
+make[1]: *** [CMakeFiles/cmTC_26d9c.dir/src.c.o] Error 1
+make: *** [cmTC_26d9c/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <nmmintrin.h>
+
+  int main()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0}, c = {0,0,0,0};
+    c = _mm_cmpgt_epi64(a, b);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_SSE4_2_4 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_32612/fast"
+make -f CMakeFiles/cmTC_32612.dir/build.make CMakeFiles/cmTC_32612.dir/build
+Building C object CMakeFiles/cmTC_32612.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_SSE4_2_4 /arch:SSE4 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_32612.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:SSE4: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_32612.dir/src.c.o] Error 1
+make: *** [cmTC_32612/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <nmmintrin.h>
+
+  int main()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0}, c = {0,0,0,0};
+    c = _mm_cmpgt_epi64(a, b);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee7dd/fast"
+make -f CMakeFiles/cmTC_ee7dd.dir/build.make CMakeFiles/cmTC_ee7dd.dir/build
+Building C object CMakeFiles/cmTC_ee7dd.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_AVX_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_ee7dd.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: immintrin.h: No such file or directory
+   #include <immintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_ee7dd.dir/src.c.o] Error 1
+make: *** [cmTC_ee7dd/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+     __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66d4d/fast"
+make -f CMakeFiles/cmTC_66d4d.dir/build.make CMakeFiles/cmTC_66d4d.dir/build
+Building C object CMakeFiles/cmTC_66d4d.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_AVX_2 -mavx -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_66d4d.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-mavx'
+make[1]: *** [CMakeFiles/cmTC_66d4d.dir/src.c.o] Error 1
+make: *** [cmTC_66d4d/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+     __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e1b3/fast"
+make -f CMakeFiles/cmTC_5e1b3.dir/build.make CMakeFiles/cmTC_5e1b3.dir/build
+Building C object CMakeFiles/cmTC_5e1b3.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_AVX_3 /arch:AVX -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_5e1b3.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:AVX: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_5e1b3.dir/src.c.o] Error 1
+make: *** [cmTC_5e1b3/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+     __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_SSE1_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89704/fast"
+make -f CMakeFiles/cmTC_89704.dir/build.make CMakeFiles/cmTC_89704.dir/build
+Building C object CMakeFiles/cmTC_89704.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE1_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_89704.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: xmmintrin.h: No such file or directory
+   #include <xmmintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_89704.dir/src.c.o] Error 1
+make: *** [cmTC_89704/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <xmmintrin.h>
+
+  int main()
+  {
+    __m128 a;
+    float vals[4] = {0,0,0,0};
+    a = _mm_loadu_ps(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test CXX_HAS_SSE1_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4c25/fast"
+make -f CMakeFiles/cmTC_b4c25.dir/build.make CMakeFiles/cmTC_b4c25.dir/build
+Building C object CMakeFiles/cmTC_b4c25.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE1_2 -msse -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_b4c25.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse'
+make[1]: *** [CMakeFiles/cmTC_b4c25.dir/src.c.o] Error 1
+make: *** [cmTC_b4c25/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <xmmintrin.h>
+
+  int main()
+  {
+    __m128 a;
+    float vals[4] = {0,0,0,0};
+    a = _mm_loadu_ps(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test CXX_HAS_SSE1_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbcfe/fast"
+make -f CMakeFiles/cmTC_bbcfe.dir/build.make CMakeFiles/cmTC_bbcfe.dir/build
+Building C object CMakeFiles/cmTC_bbcfe.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE1_3 /arch:SSE -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_bbcfe.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:SSE: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_bbcfe.dir/src.c.o] Error 1
+make: *** [cmTC_bbcfe/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <xmmintrin.h>
+
+  int main()
+  {
+    __m128 a;
+    float vals[4] = {0,0,0,0};
+    a = _mm_loadu_ps(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test CXX_HAS_SSE2_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca6db/fast"
+make -f CMakeFiles/cmTC_ca6db.dir/build.make CMakeFiles/cmTC_ca6db.dir/build
+Building C object CMakeFiles/cmTC_ca6db.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE2_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_ca6db.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: emmintrin.h: No such file or directory
+   #include <emmintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_ca6db.dir/src.c.o] Error 1
+make: *** [cmTC_ca6db/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <emmintrin.h>
+
+  int main()
+  {
+    __m128d a;
+    double vals[2] = {0,0};
+    a = _mm_loadu_pd(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test CXX_HAS_SSE2_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_42718/fast"
+make -f CMakeFiles/cmTC_42718.dir/build.make CMakeFiles/cmTC_42718.dir/build
+Building C object CMakeFiles/cmTC_42718.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE2_2 -msse2 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_42718.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse2'
+make[1]: *** [CMakeFiles/cmTC_42718.dir/src.c.o] Error 1
+make: *** [cmTC_42718/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <emmintrin.h>
+
+  int main()
+  {
+    __m128d a;
+    double vals[2] = {0,0};
+    a = _mm_loadu_pd(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test CXX_HAS_SSE2_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c18d9/fast"
+make -f CMakeFiles/cmTC_c18d9.dir/build.make CMakeFiles/cmTC_c18d9.dir/build
+Building C object CMakeFiles/cmTC_c18d9.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE2_3 /arch:SSE2 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_c18d9.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:SSE2: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_c18d9.dir/src.c.o] Error 1
+make: *** [cmTC_c18d9/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <emmintrin.h>
+
+  int main()
+  {
+    __m128d a;
+    double vals[2] = {0,0};
+    a = _mm_loadu_pd(vals);
+    return 0;
+  }
+Performing C SOURCE FILE Test CXX_HAS_SSE3_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6fce/fast"
+make -f CMakeFiles/cmTC_f6fce.dir/build.make CMakeFiles/cmTC_f6fce.dir/build
+Building C object CMakeFiles/cmTC_f6fce.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE3_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_f6fce.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: pmmintrin.h: No such file or directory
+   #include <pmmintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_f6fce.dir/src.c.o] Error 1
+make: *** [cmTC_f6fce/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <pmmintrin.h>
+
+  int main( )
+  {
+    const int vals[4] = {0,0,0,0};
+    __m128i a;
+    a = _mm_lddqu_si128( (const __m128i*)vals );
+    return 0;
+  }
+Performing C SOURCE FILE Test CXX_HAS_SSE3_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4242/fast"
+make -f CMakeFiles/cmTC_f4242.dir/build.make CMakeFiles/cmTC_f4242.dir/build
+Building C object CMakeFiles/cmTC_f4242.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE3_2 -msse3 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_f4242.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse3'
+make[1]: *** [CMakeFiles/cmTC_f4242.dir/src.c.o] Error 1
+make: *** [cmTC_f4242/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <pmmintrin.h>
+
+  int main( )
+  {
+    const int vals[4] = {0,0,0,0};
+    __m128i a;
+    a = _mm_lddqu_si128( (const __m128i*)vals );
+    return 0;
+  }
+Performing C SOURCE FILE Test CXX_HAS_SSE3_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1da17/fast"
+make -f CMakeFiles/cmTC_1da17.dir/build.make CMakeFiles/cmTC_1da17.dir/build
+Building C object CMakeFiles/cmTC_1da17.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE3_3 /arch:SSE3 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_1da17.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:SSE3: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_1da17.dir/src.c.o] Error 1
+make: *** [cmTC_1da17/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <pmmintrin.h>
+
+  int main( )
+  {
+    const int vals[4] = {0,0,0,0};
+    __m128i a;
+    a = _mm_lddqu_si128( (const __m128i*)vals );
+    return 0;
+  }
+Performing C SOURCE FILE Test CXX_HAS_SSE4_1_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b637/fast"
+make -f CMakeFiles/cmTC_1b637.dir/build.make CMakeFiles/cmTC_1b637.dir/build
+Building C object CMakeFiles/cmTC_1b637.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE4_1_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_1b637.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: smmintrin.h: No such file or directory
+   #include <smmintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_1b637.dir/src.c.o] Error 1
+make: *** [cmTC_1b637/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <smmintrin.h>
+
+  int main ()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0};
+    __m128i res = _mm_max_epi8(a, b);
+
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_SSE4_1_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84563/fast"
+make -f CMakeFiles/cmTC_84563.dir/build.make CMakeFiles/cmTC_84563.dir/build
+Building C object CMakeFiles/cmTC_84563.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE4_1_2 -msse4.1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_84563.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse4.1'
+make[1]: *** [CMakeFiles/cmTC_84563.dir/src.c.o] Error 1
+make: *** [cmTC_84563/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <smmintrin.h>
+
+  int main ()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0};
+    __m128i res = _mm_max_epi8(a, b);
+
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_SSE4_1_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5cf7e/fast"
+make -f CMakeFiles/cmTC_5cf7e.dir/build.make CMakeFiles/cmTC_5cf7e.dir/build
+Building C object CMakeFiles/cmTC_5cf7e.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE4_1_3 -msse4 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_5cf7e.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse4'
+make[1]: *** [CMakeFiles/cmTC_5cf7e.dir/src.c.o] Error 1
+make: *** [cmTC_5cf7e/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <smmintrin.h>
+
+  int main ()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0};
+    __m128i res = _mm_max_epi8(a, b);
+
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_SSE4_1_4 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f96c/fast"
+make -f CMakeFiles/cmTC_1f96c.dir/build.make CMakeFiles/cmTC_1f96c.dir/build
+Building C object CMakeFiles/cmTC_1f96c.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE4_1_4 /arch:SSE4 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_1f96c.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:SSE4: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_1f96c.dir/src.c.o] Error 1
+make: *** [cmTC_1f96c/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <smmintrin.h>
+
+  int main ()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0};
+    __m128i res = _mm_max_epi8(a, b);
+
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_SSE4_2_1 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fd37/fast"
+make -f CMakeFiles/cmTC_2fd37.dir/build.make CMakeFiles/cmTC_2fd37.dir/build
+Building C object CMakeFiles/cmTC_2fd37.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE4_2_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_2fd37.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:25: fatal error: nmmintrin.h: No such file or directory
+   #include <nmmintrin.h>
+                         ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_2fd37.dir/src.c.o] Error 1
+make: *** [cmTC_2fd37/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <nmmintrin.h>
+
+  int main()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0}, c = {0,0,0,0};
+    c = _mm_cmpgt_epi64(a, b);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_SSE4_2_2 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_845db/fast"
+make -f CMakeFiles/cmTC_845db.dir/build.make CMakeFiles/cmTC_845db.dir/build
+Building C object CMakeFiles/cmTC_845db.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE4_2_2 -msse4.2 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_845db.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse4.2'
+make[1]: *** [CMakeFiles/cmTC_845db.dir/src.c.o] Error 1
+make: *** [cmTC_845db/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <nmmintrin.h>
+
+  int main()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0}, c = {0,0,0,0};
+    c = _mm_cmpgt_epi64(a, b);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_SSE4_2_3 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b46c3/fast"
+make -f CMakeFiles/cmTC_b46c3.dir/build.make CMakeFiles/cmTC_b46c3.dir/build
+Building C object CMakeFiles/cmTC_b46c3.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE4_2_3 -msse4 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_b46c3.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: unrecognized command line option '-msse4'
+make[1]: *** [CMakeFiles/cmTC_b46c3.dir/src.c.o] Error 1
+make: *** [cmTC_b46c3/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <nmmintrin.h>
+
+  int main()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0}, c = {0,0,0,0};
+    c = _mm_cmpgt_epi64(a, b);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_SSE4_2_4 failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7175/fast"
+make -f CMakeFiles/cmTC_f7175.dir/build.make CMakeFiles/cmTC_f7175.dir/build
+Building C object CMakeFiles/cmTC_f7175.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCXX_HAS_SSE4_2_4 /arch:SSE4 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_f7175.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+arm-linux-androideabi-gcc: error: /arch:SSE4: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_f7175.dir/src.c.o] Error 1
+make: *** [cmTC_f7175/fast] Error 2
+
+Return value: 1
+Source file was:
+
+  #include <nmmintrin.h>
+
+  int main()
+  {
+    __m128i a = {0,0,0,0}, b = {0,0,0,0}, c = {0,0,0,0};
+    c = _mm_cmpgt_epi64(a, b);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test HAS_C11_ATOMICS failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac458/fast"
+make -f CMakeFiles/cmTC_ac458.dir/build.make CMakeFiles/cmTC_ac458.dir/build
+Building C object CMakeFiles/cmTC_ac458.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DHAS_C11_ATOMICS -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_ac458.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+In file included from /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:0:
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c: In function 'main':
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:7:3: error: request for member '__val' in something not a structure or union
+   atomic_store(&a, 1);
+   ^
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:7:3: error: incompatible type for argument 1 of '__atomic_store_n'
+   atomic_store(&a, 1);
+   ^
+In file included from /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:0:
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:8:3: error: request for member '__val' in something not a structure or union
+   atomic_fetch_add(&a, 1);
+   ^
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:8:3: error: incompatible type for argument 1 of '__atomic_fetch_add'
+   atomic_fetch_add(&a, 1);
+   ^
+In file included from /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:0:
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:9:8: error: request for member '__val' in something not a structure or union
+   oa = atomic_load(&a);
+        ^
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:9:3: error: incompatible type for argument 1 of '__atomic_load_n'
+   oa = atomic_load(&a);
+   ^
+In file included from /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:0:
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:10:7: error: request for member '__val' in something not a structure or union
+   if(!atomic_compare_exchange_strong(&a, &oa, 3))
+       ^
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:10:3: error: incompatible type for argument 1 of '__atomic_compare_exchange_n'
+   if(!atomic_compare_exchange_strong(&a, &oa, 3))
+   ^
+make[1]: *** [CMakeFiles/cmTC_ac458.dir/src.c.o] Error 1
+make: *** [cmTC_ac458/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <stdatomic.h>
+int main()
+{
+  int a;
+  int oa;
+  atomic_store(&a, 1);
+  atomic_fetch_add(&a, 1);
+  oa = atomic_load(&a);
+  if(!atomic_compare_exchange_strong(&a, &oa, 3))
+    return -1;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAS_MSC_ATOMICS failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac8e4/fast"
+make -f CMakeFiles/cmTC_ac8e4.dir/build.make CMakeFiles/cmTC_ac8e4.dir/build
+Building C object CMakeFiles/cmTC_ac8e4.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DHAS_MSC_ATOMICS -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_ac8e4.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c:2:20: fatal error: intrin.h: No such file or directory
+ #include <intrin.h>
+                    ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_ac8e4.dir/src.c.o] Error 1
+make: *** [cmTC_ac8e4/fast] Error 2
+
+Return value: 1
+Source file was:
+
+#include <intrin.h>
+int main()
+{
+  long a;
+  _InterlockedExchange(&a, 1);
+  _InterlockedExchangeAdd(&a, 1);
+  if(_InterlockedCompareExchange(&a, 3, 2) != 2)
+    return -1;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAS_GCC_ATOMICS failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd9eb/fast"
+make -f CMakeFiles/cmTC_bd9eb.dir/build.make CMakeFiles/cmTC_bd9eb.dir/build
+Building C object CMakeFiles/cmTC_bd9eb.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DHAS_GCC_ATOMICS -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_bd9eb.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bd9eb
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd9eb.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DHAS_GCC_ATOMICS   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_bd9eb.dir/src.c.o -o cmTC_bd9eb  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+Return value: TRUE
+Source file was:
+
+int main()
+{
+  int a;
+  __sync_lock_test_and_set(&a, 1);
+  __sync_fetch_and_add(&a, 1);
+  if(!__sync_bool_compare_and_swap(&a, 2, 3))
+    return -1;
+  return 0;
+}
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af17b/fast"
+make -f CMakeFiles/cmTC_af17b.dir/build.make CMakeFiles/cmTC_af17b.dir/build
+Building C object CMakeFiles/cmTC_af17b.dir/CheckFunctionExists.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_af17b.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_af17b
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af17b.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCHECK_FUNCTION_EXISTS=clock_gettime   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_af17b.dir/CheckFunctionExists.c.o -o cmTC_af17b  -L/libs/armeabi-v7a  -L/Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/time.h  -lrt  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lrt
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_af17b] Error 1
+make: *** [cmTC_af17b/fast] Error 2
+
+

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/malzantot/Documents/playground/torch-android/distro/pkg/paths/paths.c
+paths.h
+/Users/malzantot/Documents/playground/torch-android/distro/pkg/paths/paths.h
+dlfcn.h
+-
+windows.h
+-
+
+/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h
+
+/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/dlfcn.h
+sys/cdefs.h
+-
+
+/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/paths.h
+
+/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h
+sys/cdefs_elf.h
+-
+android/api-level.h
+-
+
+/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h
+

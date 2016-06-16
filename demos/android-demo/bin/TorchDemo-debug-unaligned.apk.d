@@ -1,0 +1,21 @@
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/bin/TorchDemo-debug-unaligned.apk : \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/bin/TorchDemo.ap_ \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/bin/classes.dex \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libgnustl_shared.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libimage.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libluajit.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libluaT.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libnnx.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libpaths.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libpng.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libpng16.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libppm.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libsundown.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libsys.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libTH.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libTHNN.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libthreads.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libthreadsmain.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libtorch.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libtorchandroid.so \
+/Users/malzantot/Documents/playground/torch-android/demos/android-demo/libs/armeabi-v7a/libtorchdemo.so \

@@ -5,7 +5,7 @@
 #include <THApkFile.h>
 void android_fopen_set_asset_manager(AAssetManager* manager);
 FILE* android_fopen(const char* fname, const char* mode);
-
+ 
 static const luaL_reg lualibs[] =
   {
     { "base",       luaopen_base },

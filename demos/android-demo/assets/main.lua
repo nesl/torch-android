@@ -3,8 +3,6 @@
 -- Copyright (C) 2013 Soumith Chintala
 
 require 'torch'
-require 'cutorch'
-require 'cunn'
 require 'nnx'
 require 'dok'
 require 'image'

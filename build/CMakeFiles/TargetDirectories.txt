@@ -1,0 +1,16 @@
+/Users/malzantot/Documents/playground/torch-android/build/distro/extra/threads/CMakeFiles/threadsmain.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/extra/threads/CMakeFiles/threads.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/extra/nn/lib/THNN/CMakeFiles/THNN.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/pkg/torch/lib/luaT/CMakeFiles/luaT.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/pkg/sys/CMakeFiles/sys.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/pkg/torch/CMakeFiles/torch.dir
+/Users/malzantot/Documents/playground/torch-android/build/src/CMakeFiles/torchandroid.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/pkg/image/CMakeFiles/image.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/extra/nnx/CMakeFiles/nnx.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1/CMakeFiles/luajit.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/pkg/torch/lib/TH/CMakeFiles/TH.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/pkg/paths/CMakeFiles/paths.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/pkg/image/CMakeFiles/png.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/pkg/sundown/CMakeFiles/sundown.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/pkg/image/CMakeFiles/ppm.dir
+/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1/CMakeFiles/libluajit.dir

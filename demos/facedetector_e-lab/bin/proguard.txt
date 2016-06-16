@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:26
+-keep class com.torchandroid.facedemo.CameraActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.torchandroid.facedemo.MainActivity { <init>(...); }
+

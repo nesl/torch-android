@@ -1,0 +1,455 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Darwin - 15.3.0 - x86_64
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6518/fast"
+make -f CMakeFiles/cmTC_e6518.dir/build.make CMakeFiles/cmTC_e6518.dir/build
+Building C object CMakeFiles/cmTC_e6518.dir/CheckIncludeFile.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_e6518.dir/CheckIncludeFile.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e6518
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6518.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_e6518.dir/CheckIncludeFile.c.o -o cmTC_e6518  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62e80/fast"
+make -f CMakeFiles/cmTC_62e80.dir/build.make CMakeFiles/cmTC_62e80.dir/build
+Building C object CMakeFiles/cmTC_62e80.dir/CheckIncludeFile.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_62e80.dir/CheckIncludeFile.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_62e80
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62e80.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_62e80.dir/CheckIncludeFile.c.o -o cmTC_62e80  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f803f/fast"
+make -f CMakeFiles/cmTC_f803f.dir/build.make CMakeFiles/cmTC_f803f.dir/build
+Building C object CMakeFiles/cmTC_f803f.dir/CheckIncludeFile.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_f803f.dir/CheckIncludeFile.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f803f
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f803f.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_f803f.dir/CheckIncludeFile.c.o -o cmTC_f803f  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining size of void* passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_778ea/fast"
+make -f CMakeFiles/cmTC_778ea.dir/build.make CMakeFiles/cmTC_778ea.dir/build
+Building C object CMakeFiles/cmTC_778ea.dir/SIZEOF_VOID_P.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_778ea.dir/SIZEOF_VOID_P.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_P.c
+Linking C executable cmTC_778ea
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_778ea.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_778ea.dir/SIZEOF_VOID_P.c.o -o cmTC_778ea  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if the function dlopen exists passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20b02/fast"
+make -f CMakeFiles/cmTC_20b02.dir/build.make CMakeFiles/cmTC_20b02.dir/build
+Building C object CMakeFiles/cmTC_20b02.dir/CheckFunctionExists.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DCHECK_FUNCTION_EXISTS=dlopen -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_20b02.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_20b02
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20b02.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DCHECK_FUNCTION_EXISTS=dlopen   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_20b02.dir/CheckFunctionExists.c.o -o cmTC_20b02  -L/libs/armeabi-v7a  -L/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/lib  -ldl  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if the function sin exists in the m passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2277/fast"
+make -f CMakeFiles/cmTC_f2277.dir/build.make CMakeFiles/cmTC_f2277.dir/build
+Building C object CMakeFiles/cmTC_f2277.dir/CheckFunctionExists.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DCHECK_FUNCTION_EXISTS=sin -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_f2277.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function 'sin'
+/opt/local/share/cmake-3.3/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_f2277
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2277.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DCHECK_FUNCTION_EXISTS=sin   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_f2277.dir/CheckFunctionExists.c.o -o cmTC_f2277  -L/libs/armeabi-v7a  -L/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/lib  -lm -ldl  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5a2e/fast"
+make -f CMakeFiles/cmTC_a5a2e.dir/build.make CMakeFiles/cmTC_a5a2e.dir/build
+Building C object CMakeFiles/cmTC_a5a2e.dir/CheckIncludeFiles.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_a5a2e.dir/CheckIncludeFiles.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a5a2e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5a2e.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_a5a2e.dir/CheckIncludeFiles.c.o -o cmTC_a5a2e  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d23ed/fast"
+make -f CMakeFiles/cmTC_d23ed.dir/build.make CMakeFiles/cmTC_d23ed.dir/build
+Building C object CMakeFiles/cmTC_d23ed.dir/CheckSymbolExists.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_d23ed.dir/CheckSymbolExists.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d23ed
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d23ed.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_d23ed.dir/CheckSymbolExists.c.o -o cmTC_d23ed  -L/libs/armeabi-v7a  -L/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/lib  -ldl  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+File /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test LJ_TARGET_ARM succeded with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5abc5/fast"
+make -f CMakeFiles/cmTC_5abc5.dir/build.make CMakeFiles/cmTC_5abc5.dir/build
+Building C object CMakeFiles/cmTC_5abc5.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_TARGET_ARM -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1 -I/Users/malzantot/Documents/playground/torch-android/distro/exe/luajit-rocks/luajit-2.1/src    -o CMakeFiles/cmTC_5abc5.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5abc5
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5abc5.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_TARGET_ARM   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_5abc5.dir/src.c.o -o cmTC_5abc5  -L/libs/armeabi-v7a  -L/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/lib  -ldl  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+Source file was:
+
+#undef LJ_TARGET_ARM
+#include "lj_arch.h"
+#if LJ_TARGET_ARM
+int main() { return 0; }
+#else
+#error "not defined"
+#endif
+
+Performing C SOURCE FILE Test LJ_HASJIT_1 succeded with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7aaa2/fast"
+make -f CMakeFiles/cmTC_7aaa2.dir/build.make CMakeFiles/cmTC_7aaa2.dir/build
+Building C object CMakeFiles/cmTC_7aaa2.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_HASJIT_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1 -I/Users/malzantot/Documents/playground/torch-android/distro/exe/luajit-rocks/luajit-2.1/src    -o CMakeFiles/cmTC_7aaa2.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7aaa2
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aaa2.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_HASJIT_1   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_7aaa2.dir/src.c.o -o cmTC_7aaa2  -L/libs/armeabi-v7a  -L/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/lib  -ldl  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+Source file was:
+
+#undef LJ_HASJIT
+#include "lj_arch.h"
+#if LJ_HASJIT == 1
+int main() { return 0; }
+#else
+#error "not defined"
+#endif
+
+Performing C SOURCE FILE Test LJ_HASFFI_1 succeded with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1183d/fast"
+make -f CMakeFiles/cmTC_1183d.dir/build.make CMakeFiles/cmTC_1183d.dir/build
+Building C object CMakeFiles/cmTC_1183d.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_HASFFI_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1 -I/Users/malzantot/Documents/playground/torch-android/distro/exe/luajit-rocks/luajit-2.1/src    -o CMakeFiles/cmTC_1183d.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1183d
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1183d.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_HASFFI_1   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_1183d.dir/src.c.o -o cmTC_1183d  -L/libs/armeabi-v7a  -L/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/lib  -ldl  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+Source file was:
+
+#undef LJ_HASFFI
+#include "lj_arch.h"
+#if LJ_HASFFI == 1
+int main() { return 0; }
+#else
+#error "not defined"
+#endif
+
+Performing C SOURCE FILE Test LJ_DUALNUM_1 succeded with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a9b78/fast"
+make -f CMakeFiles/cmTC_a9b78.dir/build.make CMakeFiles/cmTC_a9b78.dir/build
+Building C object CMakeFiles/cmTC_a9b78.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_DUALNUM_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1 -I/Users/malzantot/Documents/playground/torch-android/distro/exe/luajit-rocks/luajit-2.1/src    -o CMakeFiles/cmTC_a9b78.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a9b78
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b78.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_DUALNUM_1   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_a9b78.dir/src.c.o -o cmTC_a9b78  -L/libs/armeabi-v7a  -L/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/lib  -ldl  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+Source file was:
+
+#undef LJ_DUALNUM
+#include "lj_arch.h"
+#if LJ_DUALNUM == 1
+int main() { return 0; }
+#else
+#error "not defined"
+#endif
+
+Performing C SOURCE FILE Test LJ_ARCH_HASFPU_1 succeded with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f164/fast"
+make -f CMakeFiles/cmTC_1f164.dir/build.make CMakeFiles/cmTC_1f164.dir/build
+Building C object CMakeFiles/cmTC_1f164.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_ARCH_HASFPU_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1 -I/Users/malzantot/Documents/playground/torch-android/distro/exe/luajit-rocks/luajit-2.1/src    -o CMakeFiles/cmTC_1f164.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1f164
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f164.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_ARCH_HASFPU_1   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_1f164.dir/src.c.o -o cmTC_1f164  -L/libs/armeabi-v7a  -L/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/lib  -ldl  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+Source file was:
+
+#undef LJ_ARCH_HASFPU
+#include "lj_arch.h"
+#if LJ_ARCH_HASFPU == 1
+int main() { return 0; }
+#else
+#error "not defined"
+#endif
+
+Performing C SOURCE FILE Test LJ_ABI_SOFTFP_1 succeded with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3669/fast"
+make -f CMakeFiles/cmTC_a3669.dir/build.make CMakeFiles/cmTC_a3669.dir/build
+Building C object CMakeFiles/cmTC_a3669.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_ABI_SOFTFP_1 -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -I/Users/malzantot/Documents/playground/torch-android/build/distro/exe/luajit-rocks/luajit-2.1 -I/Users/malzantot/Documents/playground/torch-android/distro/exe/luajit-rocks/luajit-2.1/src    -o CMakeFiles/cmTC_a3669.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a3669
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3669.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DLJ_ABI_SOFTFP_1   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_a3669.dir/src.c.o -o cmTC_a3669  -L/libs/armeabi-v7a  -L/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/lib  -ldl  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+Source file was:
+
+#undef LJ_ABI_SOFTFP
+#include "lj_arch.h"
+#if LJ_ABI_SOFTFP == 1
+int main() { return 0; }
+#else
+#error "not defined"
+#endif
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4337/fast"
+make -f CMakeFiles/cmTC_a4337.dir/build.make CMakeFiles/cmTC_a4337.dir/build
+Building C object CMakeFiles/cmTC_a4337.dir/CheckIncludeFiles.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_a4337.dir/CheckIncludeFiles.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a4337
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4337.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_a4337.dir/CheckIncludeFiles.c.o -o cmTC_a4337  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2a8b4/fast"
+make -f CMakeFiles/cmTC_2a8b4.dir/build.make CMakeFiles/cmTC_2a8b4.dir/build
+Building C object CMakeFiles/cmTC_2a8b4.dir/CheckIncludeFiles.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_2a8b4.dir/CheckIncludeFiles.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_2a8b4
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a8b4.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_2a8b4.dir/CheckIncludeFiles.c.o -o cmTC_2a8b4  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17fe5/fast"
+make -f CMakeFiles/cmTC_17fe5.dir/build.make CMakeFiles/cmTC_17fe5.dir/build
+Building C object CMakeFiles/cmTC_17fe5.dir/CheckIncludeFiles.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_17fe5.dir/CheckIncludeFiles.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_17fe5
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17fe5.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_17fe5.dir/CheckIncludeFiles.c.o -o cmTC_17fe5  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46957/fast"
+make -f CMakeFiles/cmTC_46957.dir/build.make CMakeFiles/cmTC_46957.dir/build
+Building C object CMakeFiles/cmTC_46957.dir/CheckIncludeFiles.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_46957.dir/CheckIncludeFiles.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_46957
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46957.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_46957.dir/CheckIncludeFiles.c.o -o cmTC_46957  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cea46/fast"
+make -f CMakeFiles/cmTC_cea46.dir/build.make CMakeFiles/cmTC_cea46.dir/build
+Building C object CMakeFiles/cmTC_cea46.dir/CheckIncludeFiles.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_cea46.dir/CheckIncludeFiles.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_cea46
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cea46.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_cea46.dir/CheckIncludeFiles.c.o -o cmTC_cea46  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if files sys/utsname.h exist passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fee9/fast"
+make -f CMakeFiles/cmTC_4fee9.dir/build.make CMakeFiles/cmTC_4fee9.dir/build
+Building C object CMakeFiles/cmTC_4fee9.dir/CheckIncludeFiles.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_4fee9.dir/CheckIncludeFiles.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4fee9
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fee9.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_4fee9.dir/CheckIncludeFiles.c.o -o cmTC_4fee9  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if the function getcwd exists passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d5cd/fast"
+make -f CMakeFiles/cmTC_9d5cd.dir/build.make CMakeFiles/cmTC_9d5cd.dir/build
+Building C object CMakeFiles/cmTC_9d5cd.dir/CheckFunctionExists.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DCHECK_FUNCTION_EXISTS=getcwd -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_9d5cd.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9d5cd
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d5cd.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DCHECK_FUNCTION_EXISTS=getcwd   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_9d5cd.dir/CheckFunctionExists.c.o -o cmTC_9d5cd  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0f5f/fast"
+make -f CMakeFiles/cmTC_a0f5f.dir/build.make CMakeFiles/cmTC_a0f5f.dir/build
+Building C object CMakeFiles/cmTC_a0f5f.dir/CheckFunctionExists.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DCHECK_FUNCTION_EXISTS=dlopen -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_a0f5f.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a0f5f
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0f5f.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -DCHECK_FUNCTION_EXISTS=dlopen   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_a0f5f.dir/CheckFunctionExists.c.o -o cmTC_a0f5f  -L/libs/armeabi-v7a  -ldl  "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d1c0/fast"
+make -f CMakeFiles/cmTC_2d1c0.dir/build.make CMakeFiles/cmTC_2d1c0.dir/build
+Building C object CMakeFiles/cmTC_2d1c0.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -DOpenMP_FLAG_DETECTED -fopenmp -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_2d1c0.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2d1c0
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d1c0.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -DOpenMP_FLAG_DETECTED -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_2d1c0.dir/src.c.o -o cmTC_2d1c0  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0501e/fast"
+make -f CMakeFiles/cmTC_0501e.dir/build.make CMakeFiles/cmTC_0501e.dir/build
+Building CXX object CMakeFiles/cmTC_0501e.dir/src.cxx.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++   -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_0501e.dir/src.cxx.o -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0501e
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0501e.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack  -DOpenMP_FLAG_DETECTED -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_0501e.dir/src.cxx.o -o cmTC_0501e  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libgnustl_shared.so" "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a" -lm
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7799/fast"
+make -f CMakeFiles/cmTC_d7799.dir/build.make CMakeFiles/cmTC_d7799.dir/build
+Building C object CMakeFiles/cmTC_d7799.dir/CheckFunctionExists.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCHECK_FUNCTION_EXISTS=mmap -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_d7799.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d7799
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7799.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCHECK_FUNCTION_EXISTS=mmap   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_d7799.dir/CheckFunctionExists.c.o -o cmTC_d7799  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining if the function malloc_usable_size exists passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90238/fast"
+make -f CMakeFiles/cmTC_90238.dir/build.make CMakeFiles/cmTC_90238.dir/build
+Building C object CMakeFiles/cmTC_90238.dir/CheckFunctionExists.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCHECK_FUNCTION_EXISTS=malloc_usable_size -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_90238.dir/CheckFunctionExists.c.o   -c /opt/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_90238
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90238.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DCHECK_FUNCTION_EXISTS=malloc_usable_size   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_90238.dir/CheckFunctionExists.c.o -o cmTC_90238  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Determining size of void* passed with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f6f7/fast"
+make -f CMakeFiles/cmTC_7f6f7.dir/build.make CMakeFiles/cmTC_7f6f7.dir/build
+Building C object CMakeFiles/cmTC_7f6f7.dir/SIZE_OF_VOIDP.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp  -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_7f6f7.dir/SIZE_OF_VOIDP.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CheckTypeSize/SIZE_OF_VOIDP.c
+Linking C executable cmTC_7f6f7
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f6f7.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_7f6f7.dir/SIZE_OF_VOIDP.c.o -o cmTC_7f6f7  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeded with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cca7d/fast"
+make -f CMakeFiles/cmTC_cca7d.dir/build.make CMakeFiles/cmTC_cca7d.dir/build
+Building C object CMakeFiles/cmTC_cca7d.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_inline -Dinline=inline -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_cca7d.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cca7d
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cca7d.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_inline -Dinline=inline -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_cca7d.dir/src.c.o -o cmTC_cca7d  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+Return value: 1
+Source file was:
+
+       static inline int static_foo()
+       {
+         return 0;
+       }
+
+       int main(int argc, char *argv[])
+       {
+         static_foo();
+         return 0;
+       }
+Performing C SOURCE FILE Test C_HAS_THREAD succeded with the following output:
+Change Dir: /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d9e5/fast"
+make -f CMakeFiles/cmTC_5d9e5.dir/build.make CMakeFiles/cmTC_5d9e5.dir/build
+Building C object CMakeFiles/cmTC_5d9e5.dir/src.c.o
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -DANDROID -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_THREAD -fPIE -isystem /Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm/usr/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/include/backward    -o CMakeFiles/cmTC_5d9e5.dir/src.c.o   -c /Users/malzantot/Documents/playground/torch-android/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5d9e5
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d9e5.dir/link.txt --verbose=1
+/Users/malzantot/Library/Android/android-ndk-r10e/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  -Wno-psabi --sysroot=/Users/malzantot/Library/Android/android-ndk-r10e/platforms/android-21/arch-arm -funwind-tables -finline-limit=64 -fsigned-char -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fdata-sections -ffunction-sections -Wa,--noexecstack -DDISABLE_POSIX_MEMALIGN -Werror=implicit-function-declaration -Werror=format -fopenmp -fopenmp -DC_HAS_THREAD   -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_5d9e5.dir/src.c.o -o cmTC_5d9e5  -L/libs/armeabi-v7a   "/Users/malzantot/Library/Android/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/libsupc++.a"
+
+Source file was:
+static __thread int x = 1; int main() { return x; }
